@@ -9,7 +9,7 @@ with open('data/article1.txt', 'r', encoding='utf-8') as file:
     article = file.read()
 
 # Считывание тегов из файла
-with open('data/tags.txt', 'r', encoding='utf-8') as file:
+with open('../../OneDrive/Рабочий стол/ProjectDev/data/tags.txt', 'r', encoding='utf-8') as file:
     tags = file.readlines()
 tags = [tag.strip() for tag in tags]  # Убираем лишние пробелы и символы переноса строки
 
